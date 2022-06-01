@@ -2,9 +2,9 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/etPassword"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/my_splash"
     tools:context=".LoginActivity">
 
     <androidx.constraintlayout.widget.Guideline
@@ -49,6 +49,7 @@
         app:layout_constraintVertical_bias="0.205">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/password"
@@ -73,6 +74,7 @@
         android:layout_height="25dp"
         android:layout_marginTop="36dp"
         android:text="@string/signup"
+        android:textColor="#F8F5F5"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.534"
