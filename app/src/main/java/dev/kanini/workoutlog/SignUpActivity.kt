@@ -66,6 +66,11 @@ class SignUpActivity : AppCompatActivity() {
         if (confirm.isBlank()){
             tilconfirm.error="invalid"
         }
+        if(password!=confirm){
+            tilconfirm.error="mismatch"
+        }
+
+
 
     }
 }
